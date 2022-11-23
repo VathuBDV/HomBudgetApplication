@@ -1,0 +1,270 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Computer Science Semester 4-Winter 2021/Aplication Development 1/HomeBudgetGUI_CurryOnWhiteRice/HomeBudgetGUI",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "g3mTFyZToYO0dlm0pWZ/xw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "sAH8vbJUz3Mc8zFjm1vtQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sIbPzIX0VkQBqQyeTd8u9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.AddCatORExp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.AddCatORExp.html",
+          "hash": "D/Bs67oEb2gBh4KeZK3YVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.App.html",
+          "hash": "Gb9zdEUQyNPf+5a2EV08kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.CategoriesList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.CategoriesList.html",
+          "hash": "XU/siQpazH6RGWI1kwsGWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.CategoryDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.CategoryDetails.html",
+          "hash": "naUB1gk3f27Hc6k35bQssA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.DataGridView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.DataGridView.html",
+          "hash": "BmQLmvCb5a4zv3weLtR6GQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.DataPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.DataPresenter.html",
+          "hash": "3cq7JW4HIjkjAIpgIzhyYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.ExpenseDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.ExpenseDetails.html",
+          "hash": "GifZiLIrGzHWQi3y5+3I7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.ExpensesList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.ExpensesList.html",
+          "hash": "+xM8WvI4YbVtsWYDvHxldA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.IDataView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.IDataView.html",
+          "hash": "D27O/YWd+p1EjQgIO4opqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.MainWindow.html",
+          "hash": "gE8wWF5GIbHL99MDgADgdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.ModifyDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.ModifyDetails.html",
+          "hash": "Lf1kpmPP6wTl3OuhYJ6WGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/HomeBudgetGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HomeBudgetGUI.html",
+          "hash": "S18pAbDe9DKd0eJOMrov0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "copxegrwyGfeyFLNxAS9fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

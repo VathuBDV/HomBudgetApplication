@@ -1,0 +1,49 @@
+﻿<Window x:Class="HomeBudgetGUI.CategoriesList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeBudgetGUI"
+        mc:Ignorable="d"
+        Background="#1F2833"
+        Title="CategoriesList" Height="450" Width="800"
+        MinHeight="430"
+        MinWidth="315"
+        Icon="COWR_LOGO.ico">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height=".4*"/>
+        </Grid.RowDefinitions>
+
+        <!--Title-->
+        <TextBlock Foreground="#66FCF1" Text="Categories List" FontSize="35" FontWeight="Bold" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!--List view help: https://stackoverflow.com/questions/27217727/how-to-display-data-from-database-to-listview-in-wpf-c-sharp -->
+        <ListView x:Name="CategoryList" Grid.Column="0" Grid.Row="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}"/>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding Type}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button 
+            Background="#C5C6C7" 
+            x:Name="Cancelbtn" 
+            Click="Cancelbtn_Click" 
+            FontWeight="Bold" 
+            FontSize="20" 
+            Grid.Row="3" 
+            Grid.Column="0" 
+            VerticalAlignment="Bottom" 
+            Padding="10">Cancel</Button>
+    </Grid>
+</Window>

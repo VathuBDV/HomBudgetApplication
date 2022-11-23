@@ -1,0 +1,97 @@
+﻿<Window x:Class="HomeBudgetGUI.AddCatORExp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeBudgetGUI"
+        mc:Ignorable="d"
+        Background="#1F2833"
+        Title="AddCatORExp" Height="450" Width="800"
+        MinWidth="618"
+        MinHeight="371" Icon="COWR_LOGO.ico">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height=".3*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <!--Title-->
+        <TextBlock Foreground="#66FCF1" Text="Welcome to the HomeBudget API" FontSize="35" FontWeight="Bold" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!--Add Category-->
+        <TextBlock 
+            Foreground="#45A29E" 
+            Text="Category" 
+            FontSize="25" 
+            FontWeight="Black"
+            Grid.Column="0" 
+            Grid.Row="2" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center"/>
+        
+        <Button 
+            x:Name="AddCategory" 
+            Click="AddCategory_Click" 
+            Grid.Column="0" 
+            Grid.Row="3" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Background="#C5C6C7" 
+            FontWeight="Bold"
+            Padding="10" Margin="2,10,2,2"
+            FontSize="20">Add a Category</Button>
+        <Button 
+            x:Name="ViewCategory" 
+            Click="ViewCategory_Click" 
+            Grid.Column="0" 
+            Grid.Row="3" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Background="#C5C6C7" 
+            FontWeight="Bold"
+            Padding="10" Margin="0,80,0,0"
+            FontSize="20"
+            >View Categories</Button>
+        
+        <!--Add Expense-->
+        <TextBlock 
+            Foreground="#45A29E"
+            Text="Expense" 
+            FontSize="25" 
+            FontWeight="Bold"
+            Grid.Column="1" 
+            Grid.Row="2" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center"/>
+        
+        <Button 
+            x:Name="AddExpense" 
+            Click="AddExpense_Click" 
+            Grid.Column="1" 
+            Grid.Row="3" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Background="#C5C6C7" 
+            FontWeight="Bold"
+            Padding="10" Margin="2,10,2,2"
+            FontSize="20">Add a Expense</Button>
+        <Button 
+            x:Name="ViewExpense" 
+            Click="ViewExpense_Click" 
+            Grid.Column="1" 
+            Grid.Row="3" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Background="#C5C6C7" 
+            FontWeight="Bold"
+            Padding="10" Margin="0,80,0,0"
+            FontSize="20">View Expenses</Button>
+    
+    </Grid>
+</Window>

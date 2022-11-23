@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="HomeBudgetGUI.DataGridView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HomeBudgetGUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <DataGrid x:Name="ExpenseList" AutoGenerateColumns="False" IsReadOnly="True" FrozenColumnCount="1">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="Updatable" Header="Modify" Click="MenuItem_Click" />
+                    <MenuItem x:Name="Updatable1" Header="Delete" Click="MenuItem_Click_1" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <!--The code below: https://www.codeproject.com/Questions/210131/WPF-datagrid-row-double-click-event-->
+            <DataGrid.RowStyle>
+                <Style TargetType="{x:Type DataGridRow}" >
+                    <EventSetter x:Name="Updatable2" Event="MouseDoubleClick" Handler="MenuItem_Click"/>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+    </Grid>
+</UserControl>
