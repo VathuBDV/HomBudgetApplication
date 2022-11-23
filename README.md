@@ -1,4 +1,4 @@
-# Home Budget Application
+# Home Budget Application :moneybag:
 
 ## Description
 
