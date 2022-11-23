@@ -9,6 +9,7 @@ option to import his budget plans as well.
 This application was my final project for my Application Development I course during the 
 Winter semster of the year 2021.
 
-## Collaborator
+## Collaborators
 
 * Bhavik Patel
+* Vathusan Vimalarajan
